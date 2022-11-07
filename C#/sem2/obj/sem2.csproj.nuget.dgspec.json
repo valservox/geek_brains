@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\valeo\\Desktop\\GEEK BRAINS\\gb_git\\C#\\sem1\\sem1.csproj": {}
+    "C:\\Users\\valeo\\Desktop\\GEEK BRAINS\\C#\\sem2\\sem2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\valeo\\Desktop\\GEEK BRAINS\\gb_git\\C#\\sem1\\sem1.csproj": {
+    "C:\\Users\\valeo\\Desktop\\GEEK BRAINS\\C#\\sem2\\sem2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\valeo\\Desktop\\GEEK BRAINS\\gb_git\\C#\\sem1\\sem1.csproj",
-        "projectName": "sem1",
-        "projectPath": "C:\\Users\\valeo\\Desktop\\GEEK BRAINS\\gb_git\\C#\\sem1\\sem1.csproj",
+        "projectUniqueName": "C:\\Users\\valeo\\Desktop\\GEEK BRAINS\\C#\\sem2\\sem2.csproj",
+        "projectName": "sem2",
+        "projectPath": "C:\\Users\\valeo\\Desktop\\GEEK BRAINS\\C#\\sem2\\sem2.csproj",
         "packagesPath": "C:\\Users\\valeo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\valeo\\Desktop\\GEEK BRAINS\\gb_git\\C#\\sem1\\obj\\",
+        "outputPath": "C:\\Users\\valeo\\Desktop\\GEEK BRAINS\\C#\\sem2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\valeo\\AppData\\Roaming\\NuGet\\NuGet.Config"
