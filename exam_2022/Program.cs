@@ -1,6 +1,6 @@
 ﻿// create string array
 
-string [] CreateArray(string ArrSize){
+string [] CreateArray(int ArrSize){
     string [] array = new string[ArrSize];
     for(int i = 0; i < ArrSize; i++){
         Console.Write($"Array[{i}]: ");
@@ -21,12 +21,12 @@ void ShowArray(string [] array){
 
 // Create new array from original with specified elements
 
-string ModifiedArray(string [] InputArray){
+string [] ModifyArray(string [] InputArray){
     int NewArrSize = 0;
     for(int i = 0; i < InputArray.Length; i++){
         if(InputArray[i].Length <= 3) NewArrSize++;
     }
-    string [] NewArray = new string[NeNewArrSize];
+    string [] NewArray = new string[NewArrSize];
     int pos = 0;
     for(int i = 0; i < InputArray.Length; i++){
         if(InputArray[i].Length <= 3){
