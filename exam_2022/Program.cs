@@ -36,3 +36,15 @@ string [] ModifyArray(string [] InputArray){
     }
     return NewArray;
 }
+
+
+Console.Write("Input array size: ");
+int size = Convert.ToInt32(Console.ReadLine());
+
+string [] InputArray = CreateArray(size);
+Console.WriteLine("Created array:");
+ShowArray(InputArray);
+
+Console.WriteLine("Modified array:");
+string [] ModifiedArray = ModifyArray(InputArray);
+ShowArray(ModifiedArray);
