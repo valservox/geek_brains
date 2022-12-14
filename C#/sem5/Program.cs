@@ -166,7 +166,7 @@ ShowArray(array_new);
 */
 
 // Задача 34
-/*
+
 int CountEvenNums (int [] array){
     int qty = 0;
     for(int i = 0; i < array.Length; i++){
@@ -183,9 +183,9 @@ Console.WriteLine("Created random array:");
 ShowArray(array);
 int result = CountEvenNums(array);
 Console.WriteLine($"Quantity of even numbers in array: {result}");
-*/
+
 // Задача 36
-/*
+
 int SumOddsPos(int [] array){
     int sum = 0;
     for(int i = 0; i < array.Length; i += 2){
@@ -208,7 +208,7 @@ Console.WriteLine("Created random array:");
 ShowArray(array);
 int result = SumOddsPos(array);
 Console.WriteLine($"Sum of numbers from odd positions in array: {result}");
-*/
+
 // Задача 38
 
 double [] CreateRandDoubleArray(int ArrSize, int MinVal, int MaxVal){
