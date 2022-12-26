@@ -27,11 +27,11 @@ string [] ModifyArray(string [] InputArray){
         if(InputArray[i].Length <= 3) NewArrSize++;
     }
     string [] NewArray = new string[NewArrSize];
-    int pos = 0;
+    int j = 0;
     for(int i = 0; i < InputArray.Length; i++){
         if(InputArray[i].Length <= 3){
-            NewArray[pos] = InputArray[i];
-            pos++;
+            NewArray[j] = InputArray[i];
+            j++;
         }
     }
     return NewArray;
