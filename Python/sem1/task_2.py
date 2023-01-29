@@ -19,13 +19,31 @@ Output: 32
 # input: 1 1 1 output 2 (need 3) 
 
 
-qty1 = int(input('Количество учеников в новом классе (1): '))
-qty2 = int(input('Количество учеников в новом классе (2): '))
-qty3 = int(input('Количество учеников в новом классе (3): '))
+# qty1 = int(input('Количество учеников в новом классе (1): '))
+# qty2 = int(input('Количество учеников в новом классе (2): '))
+# qty3 = int(input('Количество учеников в новом классе (3): '))
 
-res1 = (qty1 - 1) // 2 + 1
-res2 = (qty2 - 1) // 2 + 1
-res3 = (qty3 - 1) // 2 + 1
+# res1 = (qty1 - 1) // 2 + 1
+# res2 = (qty2 - 1) // 2 + 1
+# res3 = (qty3 - 1) // 2 + 1
 
-sum = res1 + res2 + res3
-print(f'Нужно закупить {sum} парт')
+# sum = res1 + res2 + res3
+# print(f'Нужно закупить {sum} парт')
+
+# DRY - don`t repeat yourself
+
+n = int(input('Учеников за партой: '))
+m = int(input('Новых классов: '))
+x = 1
+students = []
+
+while m != 0:
+    students.append(int(input(f'Число учеников в классе ({x}): ')))
+    m -= 1
+    x += 1
+
+sum = 0
+r = range(len(students))
+for i in r:
+    sum += (students[i] + n - 1) // n
+print(f'Всего парт для новых классов: {sum}')
