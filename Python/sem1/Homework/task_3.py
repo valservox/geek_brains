@@ -22,8 +22,8 @@ half = len(ticket) // 2
 r = range(half)
 
 for i in r:
-    sum1 += ticket[i]
-    sum2 += ticket[half + i]
+    sum1 += int(ticket[i])
+    sum2 += int(ticket[half + i])
 
 res = 'no'
 if sum1 == sum2:
