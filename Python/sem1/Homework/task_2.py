@@ -16,8 +16,11 @@ S = 6П
 '''
 
 total = int(input('Всего журавликов: '))
+if total % 6 != 0:
+    print('Ошибка - число должно быть кратно 3 и 2')
+    exit()
 
-pete = total / 6
+pete = total // 6
 serg = pete
 kate = pete * 4
 
