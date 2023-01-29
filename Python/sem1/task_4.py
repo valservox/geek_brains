@@ -16,8 +16,7 @@ div400 = year % 400 == 0
 div4 = year % 4 == 0
 div100 = year % 100 == 0
 
+res = 'NO'
 if div400 or (div4 and not div100):
     res = 'YES'
-else:
-    res = 'NO'
 print(f'Високосный: {res}')
