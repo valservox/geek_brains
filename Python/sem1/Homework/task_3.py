@@ -10,3 +10,22 @@
 385916 -> yes
 123456 -> no
 '''
+
+ticket = input('Введите номер билета:')
+if len(ticket) % 2 !=0:
+    print('Ошибка - число должно быть четным')
+    exit()
+
+sum1 = 0
+sum2 = 0
+half = len(ticket) // 2
+r = range(half)
+
+for i in r:
+    sum1 += ticket[i]
+    sum2 += ticket[half + i]
+
+res = 'no'
+if sum1 == sum2:
+    res = 'yes'
+print(f'Билет счастливый: {res}')
